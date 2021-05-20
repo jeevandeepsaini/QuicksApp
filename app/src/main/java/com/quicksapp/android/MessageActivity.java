@@ -21,6 +21,7 @@ import java.util.Objects;
 
 public class MessageActivity extends AppCompatActivity {
 
+    private String defaultApp;
     private String phone;
     private String textMessage;
     private boolean connected = false;
@@ -39,6 +40,8 @@ public class MessageActivity extends AppCompatActivity {
         countryCodePicker = findViewById(R.id.ccp);
         phoneNumber = findViewById(R.id.phoneNumber);
         lottieAnimationView = findViewById(R.id.send);
+
+        defaultApp = "WhatsApp";
 
         ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
         if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
@@ -66,9 +69,17 @@ public class MessageActivity extends AppCompatActivity {
                 countryCodePicker.registerCarrierNumberEditText(phoneNumber.getEditText());
                 phone = countryCodePicker.getFullNumber();
 
-                boolean installed = CheckWhatsappInstalledOrNot();
+                boolean installed = CheckWhatsappInstalledOrNot("com.whatsapp");
+                boolean installedWB = CheckWhatsappInstalledOrNot("com.whatsapp.w4b");
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                if (installed) {
+                if (installed || installedWB) {
+                    if (defaultApp.equalsIgnoreCase("WhatsApp")) {
+                        intent.setPackage("com.whatsapp");
+                        //Log.e("message", "WhatsApp");
+                    } else if (defaultApp.equalsIgnoreCase("BusinessWhatsApp")) {
+                        intent.setPackage("com.whatsapp.w4b");
+                        //Log.e("message", "Business WhatsApp");
+                    }
                     intent.setData(Uri.parse("https://api.whatsapp.com/send?phone="+phone+"&text="+textMessage));
                 } else {
                     intent.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.whatsapp"));
@@ -76,17 +87,15 @@ public class MessageActivity extends AppCompatActivity {
                 startActivity(intent);
                 message.clearFocus();
                 phoneNumber.clearFocus();
-//                message.getEditText().getText().clear();
-//                phoneNumber.getEditText().getText().clear();
             }
         });
     }
 
-    private boolean CheckWhatsappInstalledOrNot() {
+    private boolean CheckWhatsappInstalledOrNot(String uri) {
         PackageManager packageManager = getPackageManager();
         boolean appInstalled;
         try {
-            packageManager.getPackageInfo("com.whatsapp", PackageManager.GET_ACTIVITIES);
+            packageManager.getPackageInfo(uri, PackageManager.GET_ACTIVITIES);
             appInstalled = true;
         }catch (PackageManager.NameNotFoundException e){
             appInstalled = false;
