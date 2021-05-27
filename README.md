@@ -4,3 +4,5 @@ WhatsApp has over two billion users worldwide, making it the most popular chat a
 Quick-sApp. An android application built on the WhatsApp API that allows you to send WhatsApp messages without saving the recipient’s phone number.
 
 [DOWNLOAD THE APP](https://drive.google.com/drive/folders/154gJNqU5HAoYwCRcvh83dSWqphCThKBt)
+
+<img src = "https://github.com/jeevandeepsaini/QuicksApp/blob/master/Screenshot/Screenshot.png" width="720" height="1280"/>
