@@ -5,4 +5,4 @@ Quick-sApp. An android application built on the WhatsApp API that allows you to 
 
 [DOWNLOAD THE APP](https://drive.google.com/drive/folders/154gJNqU5HAoYwCRcvh83dSWqphCThKBt)
 
-<img src = "https://github.com/jeevandeepsaini/QuicksApp/blob/master/Screenshot/Screenshot.png" width="720" height="1280"/>
+<img src = "https://github.com/jeevandeepsaini/QuicksApp/blob/master/Screenshot/Screenshot.png" width="400" height="750"/>
