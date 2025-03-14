@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_bg"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/quick"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="QuicksApp"
+        android:textColor="@color/green"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="wrap_content"
+        android:layout_height="55.5dp"
+        android:layout_below="@id/name"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/codepickerbox"
+        android:gravity="center"
+        app:ccpDialog_allowSearch="true"
+        app:ccpDialog_backgroundColor="@color/green_bg"
+        app:ccpDialog_initialScrollToSelection="true"
+        app:ccpDialog_keyboardAutoPopup="false"
+        app:ccpDialog_showCloseIcon="true"
+        app:ccpDialog_showFastScroller="true"
+        app:ccpDialog_showFlag="true"
+        app:ccpDialog_showPhoneCode="false"
+        app:ccpDialog_showTitle="true"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_clickable="true"
+        app:ccp_contentColor="@color/black"
+        app:ccp_countryAutoDetectionPref="SIM_ONLY"
+        app:ccp_textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ccp"
+        android:hint="Phone Number"
+        android:textColorHint="@color/black"
+        android:theme="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/green"
+        app:boxStrokeErrorColor="@color/red"
+        app:cursorColor="@color/green"
+        app:cursorErrorColor="@color/red"
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/green"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/green"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:maxLength="15"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@id/phoneNumber"
+        android:layout_marginTop="5dp"
+        android:hint="Message"
+        android:textColorHint="@color/black"
+        android:theme="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+        app:boxStrokeColor="@color/green"
+        app:boxStrokeErrorColor="@color/red"
+        app:counterEnabled="true"
+        app:counterMaxLength="500"
+        app:cursorColor="@color/green"
+        app:cursorErrorColor="@color/red"
+        app:errorEnabled="true"
+        app:hintTextColor="@color/green"
+        tools:ignore="HardcodedText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:justificationMode="inter_word"
+            android:lineBreakStyle="strict"
+            android:longClickable="false"
+            android:maxLength="500"
+            android:maxLines="15"
+            android:textColor="@color/black"
+            tools:ignore="UnusedAttribute" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/green"
+        android:text="SEND"
+        app:cornerRadius="5dp"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>

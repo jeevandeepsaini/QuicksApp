@@ -2,11 +2,13 @@
 .gradle/
 build/
 
-# Local configuration file (sdk path, etc)
+# Local configuration file (sdk path, etc.)
 local.properties
 
 # Log/OS Files
 *.log
+.DS_Store
+Thumbs.db
 
 # Android Studio generated files and folders
 captures/
@@ -22,12 +24,20 @@ misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
+# Dependency caches and generated files
+**/outputs/
+**/intermediates/
+
 # Keystore files
 *.jks
 *.keystore
 
-# Google Services (e.g. APIs or Firebase)
+# Google Services (e.g., Firebase)
 google-services.json
 
 # Android Profiling
 *.hprof
+
+# Ignore environment variables or secrets (if any)
+.env
+.env.local
