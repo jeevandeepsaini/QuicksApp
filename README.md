@@ -6,12 +6,12 @@
 
 ## ✨ Key Features
 
-✅ **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.\
-✅ **Country Code Picker** – Ensures the correct international phone format.\
-✅ **Internet Connectivity Check** – Alerts users if no internet connection is available.\
-✅ **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.\
-✅ **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.\
-✅ **Minimal & Intuitive UI** – A clean, modern interface with a seamless user experience.
+- ✅ **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.\
+- ✅ **Country Code Picker** – Ensures the correct international phone format.\
+- ✅ **Internet Connectivity Check** – Alerts users if no internet connection is available.\
+- ✅ **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.\
+- ✅ **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.\
+- ✅ **Minimal & Intuitive UI** – A clean, modern interface with a seamless user experience.
 
 ## 📌 How It Works
 
@@ -26,6 +26,10 @@
 - 💼 **Business & Customer Service:** Contact clients instantly without adding them as contacts.
 - 🚚 **Freelancers & Delivery Services:** Quickly message new clients/orders.
 - 👥 **Casual Users:** Avoid cluttering contacts with temporary numbers.
+
+## 📸 Screenshots
+
+<img src="https://raw.githubusercontent.com/jeevandeepsaini/QuicksApp/main/screenshots/Screenshot.png" width="350" height="700"/>
 
 ## 📲 Installation
 
@@ -66,14 +70,4 @@
 ## 📝 License
 
 This project is licensed under the **MIT License** – feel free to use and modify it.
-
----
-
-### 📧 Contact
-
-For any questions or suggestions, feel free to reach out:\
-📩 Email: [jeevandeepsaini@gmail.com](mailto\:jeevandeepsaini@gmail.com)\
-🐦 Twitter: [@jeevandeepsaini](https://twitter.com/jeevandeepsaini)
-
----
 
