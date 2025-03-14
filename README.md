@@ -29,14 +29,20 @@
 
 ## 📲 Installation
 
-### 💺 Prerequisites
+### 💺 Download the APK
 
+- Download the latest version of [QuicksApp](https://github.com/jeevandeepsaini/QuicksApp/releases/download/v1.0.0/QuicksApp.apk)
+- Install the APK on your Android device.
+- Open the app and start messaging instantly!
+
+### 💺 Build from Source
+
+**Prerequisites**
 - **Android Studio** installed
 - **Java Development Kit (JDK)** installed
 - **Android device/emulator** for testing
 
-### 💺 Steps to Install
-
+**Steps to Install**
 1. Clone the repository:
    ```sh
    git clone https://github.com/jeevandeepsaini/QuicksApp.git
@@ -66,8 +72,8 @@ This project is licensed under the **MIT License** – feel free to use and modi
 ### 📧 Contact
 
 For any questions or suggestions, feel free to reach out:\
-📩 Email: [your.email@example.com](mailto\:jeevandeepsaini@gmail.com)\
-🐦 Twitter: [@yourhandle](https://twitter.com/jeevandeepsaini)
+📩 Email: [jeevandeepsaini@gmail.com](mailto\:jeevandeepsaini@gmail.com)\
+🐦 Twitter: [@jeevandeepsaini](https://twitter.com/jeevandeepsaini)
 
 ---
 
