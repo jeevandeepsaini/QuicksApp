@@ -6,11 +6,11 @@
 
 ## ✨ Key Features
 
-- ✅ **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.\
-- ✅ **Country Code Picker** – Ensures the correct international phone format.\
-- ✅ **Internet Connectivity Check** – Alerts users if no internet connection is available.\
-- ✅ **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.\
-- ✅ **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.\
+- ✅ **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.
+- ✅ **Country Code Picker** – Ensures the correct international phone format.
+- ✅ **Internet Connectivity Check** – Alerts users if no internet connection is available.
+- ✅ **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.
+- ✅ **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.
 - ✅ **Minimal & Intuitive UI** – A clean, modern interface with a seamless user experience.
 
 ## 📌 How It Works
