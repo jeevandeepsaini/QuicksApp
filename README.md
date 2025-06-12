@@ -6,12 +6,12 @@
 
 ## ✨ Key Features
 
-- ✅ **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.
-- ✅ **Country Code Picker** – Ensures the correct international phone format.
-- ✅ **Internet Connectivity Check** – Alerts users if no internet connection is available.
-- ✅ **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.
-- ✅ **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.
-- ✅ **Minimal & Intuitive UI** – A clean, modern interface with a seamless user experience.
+- **Instant Messaging Without Saving Contacts** – Simply enter a number, type a message, and open a WhatsApp chat.
+- **Country Code Picker** – Ensures the correct international phone format.
+- **Internet Connectivity Check** – Alerts users if no internet connection is available.
+- **WhatsApp Installation Check** – If WhatsApp is not installed, users are redirected to download it.
+- **Auto-Clearing Inputs** – Ensures a smooth experience by clearing input fields after sending a message.
+- **Minimal & Intuitive UI** – A clean, modern interface with a seamless user experience.
 
 ## 📌 How It Works
 
@@ -23,9 +23,9 @@
 
 ## 📌 Use Cases
 
-- 💼 **Business & Customer Service:** Contact clients instantly without adding them as contacts.
-- 🚚 **Freelancers & Delivery Services:** Quickly message new clients/orders.
-- 👥 **Casual Users:** Avoid cluttering contacts with temporary numbers.
+- **Business & Customer Service:** Contact clients instantly without adding them as contacts.
+- **Freelancers & Delivery Services:** Quickly message new clients/orders.
+- **Casual Users:** Avoid cluttering contacts with temporary numbers.
 
 ## 📸 Screenshots
 
@@ -64,8 +64,8 @@
 
 ## 🛡️ Security & Privacy
 
-- ✅ No data collection – QuicksApp does not store or track user data.
-- ✅ No third-party tracking – The app only interacts with WhatsApp via official deep linking.
+- No data collection – QuicksApp does not store or track user data.
+- No third-party tracking – The app only interacts with WhatsApp via official deep linking.
 
 ## 📝 License
 
